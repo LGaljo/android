@@ -585,6 +585,6 @@
   <!-- I9301I specific stuff -->
   <project name="MSM8226-Samsung/android_device_samsung_s3ve3g" path="device/samsung/s3ve3g" remote="github" revision="cm-12.0" />
   <project name="MSM8226-Samsung/android_kernel_samsung_s3ve3g" path="kernel/samsung/s3ve3g" remote="github" revision="cm-12.1" />
-  <project name="MSM8226-Samsung/android_vendor_samsung_s3ve3g" path="vendor/samsung/s3ve4g" remote='github' revision="cm-12.0" />
+  <project name="MSM8226-Samsung/android_vendor_samsung_s3ve3g" path="vendor/samsung/s3ve3g" remote='github' revision="cm-12.0" />
 
 </manifest>
