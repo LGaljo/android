@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.0_r5" />
+           revision="refs/tags/android-5.1.1_r1" />
 
   <remote  name="github"
            fetch=".."
@@ -241,6 +241,7 @@
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
+  <project path="external/lz4" name="CyanogenMod/android_external_lz4" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
@@ -471,6 +472,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
@@ -587,10 +589,13 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   
   <!-- I9301I specific stuff -->
-  <project name="MSM8226-Samsung/android_device_samsung_s3ve3g" path="device/samsung/s3ve3g" remote="github" revision="cm-12.0" />
-  <project name="MSM8226-Samsung/android_kernel_samsung_s3ve3g" path="kernel/samsung/s3ve3g" remote="github" revision="cm-12.1" />
-  <project name="MSM8226-Samsung/android_vendor_samsung_s3ve3g" path="vendor/samsung/s3ve3g" remote='github' revision="cm-12.0" />
-  <project name="MSM8226-Samsung/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote='github' revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung/cmhw" remote="github" revision="cm-12.1" />
-</manifest>
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
+  <project path="device/samsung/s3ve3g" name="MSM8226-samsung/android_device_samsung_s3ve3g" revision="cm-12.1" />
+  <project path="vendor/samsung/s3ve3g" name="MSM8226-samsung/android_vendor_samsung_s3ve3g" revision="cm-12.1" />
+  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="cm-12.1" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-12.1" />
+  <project path="device/samsung/msm8226-common" name="MSM8226-samsung/android_device_samsung_msm8226-common" revision="cm-12.1" />
+  
+  </manifest>
