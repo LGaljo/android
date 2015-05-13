@@ -587,6 +587,10 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="external/whispersystems/curve25519" name="CyanogenMod/android_external_whispersystems_curve25519-java" />
+  <project path="external/whispersystems/libtextsecure" name="CyanogenMod/android_external_whispersystems_libtextsecure-java" />
+  <project path="external/whispersystems/libaxolotl" name="CyanogenMod/android_external_whispersystems_libaxolotl-android" />
   
   <!-- I9301I specific stuff -->
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" />
@@ -594,7 +598,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
   <project path="device/samsung/s3ve3g" name="MSM8226-samsung/android_device_samsung_s3ve3g" revision="cm-12.1" />
   <project path="vendor/samsung/s3ve3g" name="MSM8226-samsung/android_vendor_samsung_s3ve3g" revision="cm-12.1" />
-  <project path="kernel/samsung/s3ve3g" name="LGaljo/android_kernel_samsung_s3ve3g" revision="cm-12.1" />
+  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="cm-12.1" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-12.1" />
   <project path="device/samsung/msm8226-common" name="MSM8226-samsung/android_device_samsung_msm8226-common" revision="cm-12.1" />
   
