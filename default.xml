@@ -303,7 +303,6 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
-  <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
@@ -598,7 +597,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
   <project path="device/samsung/s3ve3g" name="MSM8226-samsung/android_device_samsung_s3ve3g" revision="cm-12.1" />
   <project path="vendor/samsung/s3ve3g" name="MSM8226-samsung/android_vendor_samsung_s3ve3g" revision="cm-12.1" />
-  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="cm-12.1" />
+  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="samsung" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-12.1" />
   <project path="device/samsung/msm8226-common" name="MSM8226-samsung/android_device_samsung_msm8226-common" revision="cm-12.1" />
   
