@@ -597,7 +597,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
   <project path="device/samsung/s3ve3g" name="MSM8226-samsung/android_device_samsung_s3ve3g" revision="cm-12.1" />
   <project path="vendor/samsung/s3ve3g" name="MSM8226-samsung/android_vendor_samsung_s3ve3g" revision="cm-12.1" />
-  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="samsung" />
+  <project path="kernel/samsung/s3ve3g" name="MSM8226-samsung/android_kernel_samsung_s3ve3g" revision="changes" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-12.1" />
   <project path="device/samsung/msm8226-common" name="MSM8226-samsung/android_device_samsung_msm8226-common" revision="cm-12.1" />
   
