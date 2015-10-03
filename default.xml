@@ -8,7 +8,7 @@
   <remote  name="github"
            fetch="https://github.com"/>
 
-  <default revision="master"
+  <default revision="refs/tags/android-5.1.1_r18"
            remote="aosp"
            sync-j="8" />
 
